@@ -11,7 +11,7 @@ public class ChatModelsValueProvider implements ValueProvider{
 
     @Override
     public Set<Value> resolve() throws ValueResolvingException {
-        return ValueBuilder.getValuesFor("gpt-3.5-turbo", "gpt-3.5-turbo-0301");
+        return ValueBuilder.getValuesFor("gpt-3.5-turbo", "gpt-3.5-turbo-0125");
     }
     
 }
